@@ -1,0 +1,61 @@
+.cardlist {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+.card {
+  padding: 30px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  border: 2 solid #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover {
+  box-shadow: rgba(148, 148, 167, 0.2) 5px 40px 100px 0px;
+}
+.img {
+  width: 200px;
+  border-radius: 50%;
+}
+img:hover {
+  transition: 0.5s;
+  border-radius: 10%;
+}
+
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 48px;
+}
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
